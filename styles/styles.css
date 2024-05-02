@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+    font-family: "Rubik",serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.wrapper{
+
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+  
+/*header*/
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .header__menu {
+    width: 40%;
+}
+
+  .header__menu__nav__list{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .header__menu__nav__list li{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.96px;
+  color: #4F5665;
+  list-style-type: none;
+  text-decoration: none;
+  padding-right: 20px;
+  text-align: center;
+  padding-top: 13px;
+  cursor: pointer;
+  }
+
+  .header__logo{
+    width: 149px;
+    height: 36.23px;
+  }
+
+  .sign_in__button{
+  font-weight: 500;
+  font-size: 16px;
+  color: #0B132A;
+  line-height: 18.96px;
+  padding-right: 30px;
+  }
+
+  .sign_in__button-up{
+  color: #F53838;
+  justify-self: center;
+  border: #F53838 solid 1px;
+  padding:;
+  border-radius: 50px;
+  text-align: center;
+  width: 150px;
+  height: 45px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.96px;
+  }
+
+  /*banner*/
+
+  .banner, .features{
+    display: flex;
+    justify-content: center;
+    height: 382px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .banner__description{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  h1{
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 500;
+    color: #0B132A;
+  }
+
+  .banner__description__text{
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    padding-top: 20px;
+  }
+
+  .banner__description__button{
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #F53838;
+    border-color: #F53838 ;
+    color: white;
+    font-weight: 700;
+    border-style: none;
+    box-shadow:   7px 21px 63px -8px #F53838;
+    margin-top: 55px;
+  }
+
+  /*stat*/
+
+  .stat{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    height: 200px;
+  }
+
+  .stat__item{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .stat img{
+    width: 55px;
+    height: 55px;
+    margin-right: 35px;
+  }
+
+  .stat span{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #0B132A;
+  }
+
+  .stat p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+  }
+
+  .features{
+    background-color: #80808014 ;
+  }
