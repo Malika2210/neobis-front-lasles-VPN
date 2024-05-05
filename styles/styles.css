@@ -48,7 +48,7 @@
   cursor: pointer;
   }
 
-  .header__menu__nav__list li a {
+  ul.header__menu__nav__list a {
     text-decoration: none;
     color: #4F5665;
 }
