@@ -48,6 +48,11 @@
   cursor: pointer;
   }
 
+  .header__menu__nav__list li a {
+    text-decoration: none;
+    color: #4F5665;
+}
+
   .header__logo{
     width: 149px;
     height: 36.23px;
