@@ -10,7 +10,7 @@
 
 }
 
-.container {
+.container, footer {
     max-width: 1140px;
     width: 100%;
     margin: 0 auto;
@@ -318,12 +318,17 @@
     margin-top: 100px;
   }
 
-  .plan__box__item button:hover{
+  .plan__box__item button:hover, .sign_in__button-up:hover{
     background: #F53838;
     color: white;
     cursor: pointer;
     transition: 0.5s;
   }
+
+  .plan__box:hover{
+    border: #F53838 solid 2px;
+  }
+
 .plan{
   padding-bottom: 70px;
 }
@@ -358,8 +363,8 @@
   align-items: center;
   margin-top: 30px;
   margin-bottom: 30px;
-  padding-left: 70px;
-    padding-right: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .subscribe h2{
@@ -370,7 +375,7 @@
   width: 56%;
 }
 
-.subscribe p{
+.subscribe p, footer_left p{
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
@@ -388,4 +393,64 @@
   font-size: 16px;
   line-height: 25px;
   border: none;
+}
+
+footer{
+ background: #F8F8F8;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ display: flex;
+ justify-content: space-between;
+ padding-left: 100px;
+ padding-right: 100px;
+}
+
+.footer_right{
+display: flex;
+justify-content: space-between;
+width: 50%;
+}
+
+.footer_left{
+  width: 35%;
+}
+
+.footer_left>img{
+  width: 104px;
+  height: 24px;
+  margin-bottom: 30px;
+}
+
+.social{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 0;
+}
+
+.social img{
+
+}
+
+.footer_left span, .footer_right a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #AFB5C0;
+}
+
+.footer_right p{
+  color: #0B132A;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+padding-bottom: 20px;
+}
+
+.footer_right a{
+  color: #4F5665;
+  text-decoration: none;
+}
+
+.footer_right li{
+list-style: none;
 }
