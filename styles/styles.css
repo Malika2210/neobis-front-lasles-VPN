@@ -64,6 +64,7 @@
   color: #0B132A;
   line-height: 18.96px;
   padding-right: 30px;
+  text-decoration: none;
   }
 
   .sign_in__button-up{
@@ -370,6 +371,12 @@
   margin-bottom: 30px;
   padding-left: 100px;
   padding-right: 100px;
+  position: relative;
+  top: 135px;
+  background: white;
+  width: 940px;
+  margin: 0 auto;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.09);
 }
 
 .subscribe h2{
@@ -377,15 +384,27 @@
   font-size: 35px;
   line-height: 45px;
   color: #0B132A;
-  width: 56%;
+  width: 400px;
+  margin-top: 40px;
 }
 
-.subscribe p, footer_left p{
+.subscribe p{
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
   color: #4F5665;
-  padding-top: 10px;
+  margin-bottom: 40px;
+  padding-top: 20px;
+}
+
+.footer_left p, .testimotional p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4F5665;
+  
+  text-align: center;
+  padding: 10px;
 }
 
 .subscribe button{
@@ -402,7 +421,7 @@
 
 footer{
  background: #F8F8F8;
- padding-top: 50px;
+ padding-top: 200px;
  padding-bottom: 50px;
  display: flex;
  justify-content: space-between;
@@ -421,8 +440,8 @@ width: 50%;
 }
 
 .footer_left>img{
-  width: 104px;
-  height: 24px;
+  width: 149px;
+  height: 36px;
   margin-bottom: 30px;
 }
 
@@ -458,4 +477,57 @@ padding-bottom: 20px;
 
 .footer_right li{
 list-style: none;
+}
+
+.testimotional h2{
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0B132A;
+  text-align: center;
+  width: 447px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.testimotional__text{
+  width: 555px;
+  margin: 0 auto;
+  text-align: center;
+  
+  margin-bottom: 50px;
+}
+
+.testimotional__box{
+  display: flex;
+  justify-content: space-between;
+  column-gap: 40px;
+}
+
+.testimotional__box__cards{
+  border: #DDDDDD solid 2px;
+  border-radius: 10px;
+  height: 230px;
+  width: 400px;
+  gap: 20px;
+}
+
+.testimotional__box__cards__firtsLine img{
+  width: 300px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.testimotional__arrows, .testimotional__arrows__group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.right_arrow{
+  margin-top: 25px;
+}
+
+.sign_in__button:hover {
+  color: black;
+  font-weight: 700;
 }
